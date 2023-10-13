@@ -10,6 +10,15 @@ Dive into the world of Flutter development by exploring the following modules:
 #### Section 1 : Creating Flutter Apps From Scratch
 - [I am Rich](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/i_am_rich)
 
+#### Section 2 : How To Build Beautiful UIs With Flutter Widgets
+- [Mi Card](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/mi_card_finalproject)
+
+#### Section 3 : Building Apps With State
+-[Dicee](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/dicee_flutter)
+
+#### Section 4 : Boss Challenge 1
+-[Magic 8 Ball](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/magic_8_ball)
+
 ## Getting Started
 
 To explore a specific project, click on the corresponding link above. You can access the project's source code, readme, and other resources to dive deeper into its functionality. 

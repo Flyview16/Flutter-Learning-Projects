@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              CircleAvatar(
+              const CircleAvatar(
                 radius: 60.0,
                 backgroundImage: AssetImage('lib/images/herbert.jpg'),
               ),
-              Text(
+              const Text(
                 'Herbert Degadzor',
                 style: TextStyle(
                   fontFamily: 'Satisfy',
@@ -47,9 +47,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                margin: const EdgeInsets.symmetric(
+                    vertical: 10.0, horizontal: 20.0),
                 child: ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.phone,
                     color: Colors.teal,
                   ),
@@ -64,9 +65,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                margin: const EdgeInsets.symmetric(
+                    vertical: 10.0, horizontal: 20.0),
                 child: ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.email,
                     color: Colors.teal,
                   ),
