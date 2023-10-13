@@ -19,6 +19,11 @@ Dive into the world of Flutter development by exploring the following modules:
 #### Section 4 : Boss Challenge 1
 - [Magic 8 Ball](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/magic_8_ball)
 
+#### Section 5 : Using Flutter and Dart Packages
+- [Xylophone](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/xylophone_flutter)
+- Package used : [audioplayers](https://pub.dev/packages/audioplayers)
+- Audio files : [assets](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/xylophone_flutter/assets)
+
 ## Getting Started
 
 To explore a specific project, click on the corresponding link above. You can access the project's source code, readme, and other resources to dive deeper into its functionality. 
