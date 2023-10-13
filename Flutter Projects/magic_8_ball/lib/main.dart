@@ -7,12 +7,12 @@ void main() {
       home: Scaffold(
         backgroundColor: const Color.fromARGB(255, 48, 2, 56),
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(66, 35, 1, 1),
-          title: Center(
+          backgroundColor: const Color.fromARGB(66, 35, 1, 1),
+          title: const Center(
             child: Text('Ask Me Anything'),
           ),
         ),
-        body: Magic8Ball(),
+        body: const Magic8Ball(),
       ),
     ),
   );
