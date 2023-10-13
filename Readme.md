@@ -14,10 +14,10 @@ Dive into the world of Flutter development by exploring the following modules:
 - [Mi Card](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/mi_card_finalproject)
 
 #### Section 3 : Building Apps With State
--[Dicee](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/dicee_flutter)
+- [Dicee](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/dicee_flutter)
 
 #### Section 4 : Boss Challenge 1
--[Magic 8 Ball](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/magic_8_ball)
+- [Magic 8 Ball](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/magic_8_ball)
 
 ## Getting Started
 
