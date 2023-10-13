@@ -1,4 +1,4 @@
-import 'dart:math';
+import 'dart:math'; // To be able to use the random funtion
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,12 +7,12 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
-          title: Center(
+          title: const Center(
             child: Text('Dicee'),
           ),
           backgroundColor: Colors.red,
         ),
-        body: DicePage(),
+        body: const DicePage(),
       ),
     ),
   );
