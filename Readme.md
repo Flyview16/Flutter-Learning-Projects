@@ -1,11 +1,11 @@
-# My Flutter Learning Projects Repositor
-Welcome to my Flutter projects repository! Each project in this repository is structured to help you learn Flutter development by building minimal apps in modular form.
+# My Flutter Learning Projects Repository
+Welcome to my *Flutter projects repository!* Each project in this repository is structured to help you learn Flutter development by building minimal apps in modular form.
 
 ## About This Repository
-These projects are designed to contain various aspects of Flutter development focusing on simplicity, clarity, and modularity. Whether you're a beginner eager to start your Flutter journey or a developer seeking to hone your skills, you'll find valuable resources here.
+These projects are designed to contain various aspects of Flutter development to teach specific concepts and skills focusing on simplicity, clarity, and modularity. Find valuable resources here.
 
 ## Project Modules
-These projects are organized into modular units, each designed to teach specific concepts and skills. Dive into the world of Flutter development by exploring the following modules:
+Dive into the world of Flutter development by exploring the following modules:
 
 #### Section 1 : Creating Flutter Apps From Scratch
 - [I am Rich](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/i_am_rich)
