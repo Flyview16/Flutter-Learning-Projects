@@ -8,7 +8,7 @@ These projects are designed to contain various aspects of Flutter development to
 Dive into the world of Flutter development by exploring the following modules:
 
 #### Section 1 : Creating Flutter Apps From Scratch
-- [I am Rich](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/i_am_rich)
+- [I am Rich](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/i_am_rich)
 
 #### Section 2 : How To Build Beautiful UIs With Flutter Widgets
 - [Mi Card](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/mi_card_finalproject)
