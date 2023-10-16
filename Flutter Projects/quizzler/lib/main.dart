@@ -49,15 +49,15 @@ class _MyWidgetState extends State<QuizPage> {
           desc: 'You\'ve reached the end of the quiz.',
           buttons: [
             DialogButton(
-              child: Text(
+              onPressed: () => Navigator.pop(context),
+              width: 120,
+              child: const Text(
                 'Finish',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,
                 ),
               ),
-              onPressed: () => Navigator.pop(context),
-              width: 120,
             )
           ],
         ).show();
@@ -66,12 +66,12 @@ class _MyWidgetState extends State<QuizPage> {
         scoreKeeper = [];
       } else {
         if (userPickedAns == correctAnswer) {
-          scoreKeeper.add(Icon(
+          scoreKeeper.add(const Icon(
             Icons.check,
             color: Colors.green,
           ));
         } else {
-          scoreKeeper.add(Icon(
+          scoreKeeper.add(const Icon(
             Icons.close,
             color: Colors.red,
           ));
@@ -95,7 +95,7 @@ class _MyWidgetState extends State<QuizPage> {
               child: Text(
                 quizBrain.getQuestionText(),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 25.0,
                   color: Colors.white,
                 ),
@@ -113,7 +113,7 @@ class _MyWidgetState extends State<QuizPage> {
               onPressed: () {
                 checkAnswer(true);
               },
-              child: Text(
+              child: const Text(
                 'True',
                 style: TextStyle(
                   color: Colors.white,
@@ -133,7 +133,7 @@ class _MyWidgetState extends State<QuizPage> {
               onPressed: () {
                 checkAnswer(false);
               },
-              child: Text(
+              child: const Text(
                 'False',
                 style: TextStyle(
                   color: Colors.white,

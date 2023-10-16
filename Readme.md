@@ -24,6 +24,13 @@ Dive into the world of Flutter development by exploring the following modules:
 - Package used : [audioplayers](https://pub.dev/packages/audioplayers)
 - Audio files : [assets](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/xylophone_flutter/assets)
 
+#### Section 6 : Modularising and Organising Flutter Code
+- [Quizzler](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/quizzler)
+- Alert package used : [alert](https://pub.dev/packages/rflutter_alert)
+
+#### Section 7 : Boss Challenge 2
+- [Destini_StoryTeller](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/storyteller)
+
 ## Getting Started
 
 To explore a specific project, click on the corresponding link above. You can access the project's source code, readme, and other resources to dive deeper into its functionality. 
