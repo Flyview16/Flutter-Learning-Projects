@@ -36,6 +36,7 @@ class Storybrain {
   ];
 
   void nextStory(int choiceNumber) {
+    // getting next scenario based on selected choice
     if (choiceNumber == 1 && _storyNumber == 0) {
       _storyNumber = 2;
     } else if (choiceNumber == 2 && _storyNumber == 0) {

@@ -16,7 +16,7 @@ class StoryTeller extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: Destini(),
+      home: const Destini(),
     );
   }
 }
@@ -47,18 +47,19 @@ class _DestiniState extends State<Destini> {
               Expanded(
                 flex: 5,
                 child: Padding(
-                  padding: EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.all(10.0),
                   child: Center(
                     child: Text(
                       story.getStory(),
-                      style: TextStyle(color: Colors.white, fontSize: 20.0),
+                      style:
+                          const TextStyle(color: Colors.white, fontSize: 20.0),
                     ),
                   ),
                 ),
               ),
               Expanded(
                 child: Padding(
-                  padding: EdgeInsets.all(15.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: Center(
                     child: SizedBox(
                       height: 300.0,
@@ -74,7 +75,7 @@ class _DestiniState extends State<Destini> {
                         },
                         child: Text(
                           story.getChoice1(),
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: Colors.white,
                             fontSize: 20.0,
                           ),
@@ -86,7 +87,7 @@ class _DestiniState extends State<Destini> {
               ),
               Expanded(
                 child: Padding(
-                  padding: EdgeInsets.all(15.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: Visibility(
                     visible: story.buttonShouldBevisble(),
                     child: Center(
@@ -104,7 +105,7 @@ class _DestiniState extends State<Destini> {
                           },
                           child: Text(
                             story.getChoice2(),
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 20.0,
                             ),
