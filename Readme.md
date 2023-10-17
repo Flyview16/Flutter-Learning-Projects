@@ -35,6 +35,13 @@ Dive into the world of Flutter development by exploring the following modules:
 - [BMI_Calculator](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bmi_calculator)
 - Font package used : [font_awesome](https://pub.dev/packages/font_awesome_flutter)
 
+#### Section 9 : Powering Your Flutter App With Live Web Data
+- [Clima_Weather_App](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/clima_weather_app)
+- Geolocator package used : [geolocator](https://pub.dev/packages/geolocator)
+- Weather API used : [openweathermap](https://openweathermap.org/current)
+- Dart http package for handling http requests : [http](https://pub.dev/packages/http)
+- Spinkit loading indicator used : [flutter_spinkit](https://pub.dev/packages/flutter_spinkit)
+
 ## Getting Started
 
 To explore a specific project, click on the corresponding link above. You can access the project's source code, readme, and other resources to dive deeper into its functionality. 
