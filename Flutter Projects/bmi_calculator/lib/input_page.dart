@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'iconscard.dart';
@@ -51,7 +49,7 @@ class _InputPageState extends State<InputPage> {
                     colour: selectedGender == Gender.male
                         ? widgetcolor
                         : inactiveCardcolor, //tenary operator
-                    cardchild: IconsCard(
+                    cardchild: const IconsCard(
                       icon: FontAwesomeIcons.mars,
                       label: 'MALE',
                     ),
@@ -67,7 +65,7 @@ class _InputPageState extends State<InputPage> {
                     colour: selectedGender == Gender.female
                         ? widgetcolor
                         : inactiveCardcolor, //tenary operator
-                    cardchild: IconsCard(
+                    cardchild: const IconsCard(
                       icon: FontAwesomeIcons.venus,
                       label: 'FEMALE',
                     ),
@@ -81,7 +79,7 @@ class _InputPageState extends State<InputPage> {
               cardchild: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text(
+                  const Text(
                     'HEIGHT',
                     style: labelTextStyle,
                   ),
@@ -95,7 +93,7 @@ class _InputPageState extends State<InputPage> {
                             .toString(), //convert int height to string since Text only accepts string values.
                         style: numberTextStyle,
                       ),
-                      Text(
+                      const Text(
                         'cm',
                         style: labelTextStyle,
                       ),
@@ -104,13 +102,13 @@ class _InputPageState extends State<InputPage> {
                   SliderTheme(
                     data: SliderTheme.of(context).copyWith(
                       thumbShape:
-                          RoundSliderThumbShape(enabledThumbRadius: 15.0),
-                      inactiveTrackColor: Color(0xFF8D8E98),
+                          const RoundSliderThumbShape(enabledThumbRadius: 15.0),
+                      inactiveTrackColor: const Color(0xFF8D8E98),
                       activeTrackColor: Colors.white,
-                      thumbColor: Color(0xFFEB1555),
-                      overlayColor: Color(0x1fEB1555),
+                      thumbColor: const Color(0xFFEB1555),
+                      overlayColor: const Color(0x1fEB1555),
                       overlayShape:
-                          RoundSliderOverlayShape(overlayRadius: 30.0),
+                          const RoundSliderOverlayShape(overlayRadius: 30.0),
                     ),
                     child: Slider(
                         value: height.toDouble(),
@@ -124,7 +122,7 @@ class _InputPageState extends State<InputPage> {
                   ),
                 ],
               ),
-              colour: Color(0xFF1D1E33),
+              colour: const Color(0xFF1D1E33),
             ),
           ),
           Expanded(
@@ -135,7 +133,7 @@ class _InputPageState extends State<InputPage> {
                     cardchild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(
+                        const Text(
                           'WEIGHT',
                           style: labelTextStyle,
                         ),
@@ -154,7 +152,7 @@ class _InputPageState extends State<InputPage> {
                                 });
                               },
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10.0,
                             ),
                             RoundIconButton(
@@ -169,7 +167,7 @@ class _InputPageState extends State<InputPage> {
                         ),
                       ],
                     ),
-                    colour: Color(0xFF1D1E33),
+                    colour: const Color(0xFF1D1E33),
                   ),
                 ),
                 Expanded(
@@ -177,7 +175,7 @@ class _InputPageState extends State<InputPage> {
                     cardchild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(
+                        const Text(
                           'Age',
                           style: labelTextStyle,
                         ),
@@ -196,7 +194,7 @@ class _InputPageState extends State<InputPage> {
                                 });
                               },
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10.0,
                             ),
                             RoundIconButton(
@@ -211,7 +209,7 @@ class _InputPageState extends State<InputPage> {
                         ),
                       ],
                     ),
-                    colour: Color(0xFF1D1E33),
+                    colour: const Color(0xFF1D1E33),
                   ),
                 ),
               ],

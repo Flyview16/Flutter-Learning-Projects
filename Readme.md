@@ -31,6 +31,10 @@ Dive into the world of Flutter development by exploring the following modules:
 #### Section 7 : Boss Challenge 2
 - [Destini_StoryTeller](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/storyteller)
 
+#### Section 8 : Building Flutter UI for Intermediates
+- [BMI_Calculator](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bmi_calculator)
+- Font package used : [font_awesome](https://pub.dev/packages/font_awesome_flutter)
+
 ## Getting Started
 
 To explore a specific project, click on the corresponding link above. You can access the project's source code, readme, and other resources to dive deeper into its functionality. 

@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'input_page.dart';
 
@@ -14,10 +12,10 @@ class BMICalculator extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        appBarTheme: AppBarTheme(color: Color(0xFF0A0E21)),
-        scaffoldBackgroundColor: Color(0xFF0A0E21),
+        appBarTheme: const AppBarTheme(color: Color(0xFF0A0E21)),
+        scaffoldBackgroundColor: const Color(0xFF0A0E21),
       ),
-      home: InputPage(),
+      home: const InputPage(),
     );
   }
 }
