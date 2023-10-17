@@ -1,4 +1,5 @@
-# My Flutter Learning Projects Repository(https://flutter.dev/assets/homepage/flutter-lockup-bg-color.jpg)
+# My Flutter Learning Projects Repository <img src="https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup-bg-color.jpg" alt="Flutter Icon" width="48" height="48" />
+
 Welcome to my *Flutter projects repository!* Each project in this repository is structured to help you learn Flutter development by building minimal apps in modular form.
 
 ## About This Repository
