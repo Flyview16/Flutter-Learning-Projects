@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart' ;
+import 'package:flutter/material.dart';
 
 class TasksTile extends StatelessWidget {
   const TasksTile({
@@ -12,10 +12,29 @@ class TasksTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: const Text('This is a task'),
-      trailing: Checkbox(
-        value: checkValue,
-        onChanged: (newValue) {},
-      ),
+      trailing: TaskCheckbox(),
+    );
+  }
+}
+
+class TaskCheckbox extends StatefulWidget {
+  @override
+  State<TaskCheckbox> createState() => _TaskCheckboxState();
+}
+
+class _TaskCheckboxState extends State<TaskCheckbox> {
+  bool checkValue = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Checkbox(
+      activeColor: Colors.deepPurple,
+      value: checkValue,
+      onChanged: (newValue) {
+        setState(() {
+          checkValue = newValue!; //Null check
+        });
+      },
     );
   }
 }

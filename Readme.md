@@ -43,6 +43,11 @@ Dive into the world of Flutter development by exploring the following modules:
 - Dart http package for handling http requests : [http](https://pub.dev/packages/http)
 - Spinkit loading indicator used : [flutter_spinkit](https://pub.dev/packages/flutter_spinkit)
 
+#### Section 10 : Boss Challeng 3
+- [Bitcoin_Ticker](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bitcoin_ticker)
+- Dart http package for handling http requests : [http](https://pub.dev/packages/http)
+- API used to get coin prices : [restcoinapi](https://docs.coinapi.io/market-data/rest-api/exchange-rates/)
+
 ## Getting Started
 
 To explore a specific project, click on the corresponding link above. You can access the project's source code, readme, and other resources to dive deeper into its functionality. 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todoey/widgets/tasks_list.dart';
+import 'add_tasks_screen.dart';
 
 class Tasks extends StatefulWidget {
   const Tasks({super.key});
@@ -11,6 +12,10 @@ class Tasks extends StatefulWidget {
 class _TasksState extends State<Tasks> {
   bool checkValue = false;
 
+  Widget buildBottomSheet(BuildContext context) {
+    return Container();
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +23,10 @@ class _TasksState extends State<Tasks> {
         backgroundColor: Colors.deepPurple,
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.deepPurple,
-          onPressed: () {},
+          onPressed: () {
+            showModalBottomSheet(
+                context: context, builder: (context) => AddTaskScreen());
+          },
           child: const Icon(Icons.add),
         ),
         body: SafeArea(
@@ -86,6 +94,3 @@ class _TasksState extends State<Tasks> {
     );
   }
 }
-
-
-
