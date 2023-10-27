@@ -50,6 +50,11 @@ Dive into the world of Flutter development by exploring the following modules:
 
 #### Section 11 : Flash Chat App With Firebase Cloud Firestore
 - [Flash Chat](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/flash_chat)
+- Firebase packages used : - [firebase core](https://pub.dev/packages/firebase_core)
+                           - [firebase auth](https://pub.dev/packages/firebase_auth)
+                           - [cloud firestore](https://pub.dev/packages/cloud_firestore)
+- Animated text package : [animated text kit](https://pub.dev/packages/animated_text_kit)
+- Loading indicator package : [modal progress hud](https://pub.dev/packages/modal_progress_hud_nsn)
 
 #### Section 12 : Flutter State Management
 - [ToDoey](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/todoey)

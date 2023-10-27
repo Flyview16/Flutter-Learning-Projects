@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flash_chat/screens/login_screen.dart';
 import 'package:flash_chat/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +23,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   void initState() {
     super.initState();
     controller =
-        AnimationController(duration: Duration(seconds: 1), vsync: this);
+        AnimationController(duration: const Duration(seconds: 1), vsync: this);
     animation = ColorTween(begin: Colors.blueGrey, end: Colors.grey[200])
         .animate(controller);
     controller.forward();
@@ -46,7 +44,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     return Scaffold(
       backgroundColor: animation.value,
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 24.0),
+        padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -61,7 +59,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   ),
                 ),
                 DefaultTextStyle(
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.deepPurple,
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
@@ -70,14 +68,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     animatedTexts: [
                       TypewriterAnimatedText(
                         'Flash Chat',
-                        speed: Duration(milliseconds: 200),
+                        speed: const Duration(milliseconds: 200),
                       ),
                     ],
                   ),
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 48.0,
             ),
             RoundedButton(

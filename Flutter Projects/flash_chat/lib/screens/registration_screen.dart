@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'package:flash_chat/constants.dart';
 import 'package:flash_chat/components/rounded_button.dart';
@@ -28,7 +26,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         backgroundColor: Colors.redAccent,
-        duration: Duration(seconds: 3),
+        duration: const Duration(seconds: 3),
         content: Center(
           child: Text(
             errorMessage,
@@ -46,7 +44,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         inAsyncCall: spinner,
         child: Center(
           child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 24.0),
+            padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -59,7 +57,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       child: Image.asset('images/logo.png'),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 48.0,
                   ),
                   TextField(
@@ -72,7 +70,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     decoration: kTextFieldDecoration.copyWith(
                         hintText: 'Enter your email'),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 8.0,
                   ),
                   TextField(
@@ -98,7 +96,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 24.0,
                   ),
                   RoundedButton(
