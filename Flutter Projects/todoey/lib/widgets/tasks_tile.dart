@@ -27,6 +27,7 @@ class TasksTile extends StatelessWidget {
       ),
       trailing: Checkbox(
           activeColor: Colors.deepPurple,
+          side: const BorderSide(color: Colors.deepPurple, width: 2.0),
           value: checkValue,
           onChanged: (newValue) {
             checkBoxCallback(newValue);
