@@ -1,7 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:todoey/models/task_data.dart';
 
-class AddTaskScreen extends StatelessWidget {
+class AddTaskScreen extends StatefulWidget {
   const AddTaskScreen({super.key});
+
+  @override
+  State<AddTaskScreen> createState() => _AddTaskScreenState();
+}
+
+class _AddTaskScreenState extends State<AddTaskScreen> {
+  late String newTaskTitle = '';
+  TextEditingController controller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +34,14 @@ class AddTaskScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(color: Colors.deepPurpleAccent, fontSize: 30.0),
             ),
-            const TextField(
+            TextField(
+              controller: controller,
+              onChanged: (newValue) {
+                newTaskTitle = newValue;
+              },
               autofocus: true,
               textAlign: TextAlign.center,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 enabledBorder: UnderlineInputBorder(
                   borderSide: BorderSide(color: Colors.deepPurple, width: 2.0),
                 ),
@@ -43,7 +57,16 @@ class AddTaskScreen extends StatelessWidget {
               style: TextButton.styleFrom(
                 backgroundColor: Colors.deepPurple,
               ),
-              onPressed: () {},
+              onPressed: () {
+// Add task only when there is a text in the textfield
+                if (controller.text.isNotEmpty) {
+                  Provider.of<TaskData>(context, listen: false)
+                      .addTask(newTaskTitle);
+                  Navigator.pop(context);
+                } else {
+                  Navigator.pop(context);
+                }
+              },
               child: const Text(
                 'Add',
                 style: TextStyle(

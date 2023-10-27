@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:todoey/models/task_data.dart';
 import 'package:todoey/widgets/tasks_list.dart';
 import 'add_tasks_screen.dart';
+import 'package:provider/provider.dart';
 
 class Tasks extends StatefulWidget {
   const Tasks({super.key});
@@ -12,10 +14,6 @@ class Tasks extends StatefulWidget {
 class _TasksState extends State<Tasks> {
   bool checkValue = false;
 
-  Widget buildBottomSheet(BuildContext context) {
-    return Container();
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +23,9 @@ class _TasksState extends State<Tasks> {
           backgroundColor: Colors.deepPurple,
           onPressed: () {
             showModalBottomSheet(
-                context: context, builder: (context) => AddTaskScreen());
+              context: context,
+              builder: (context) => const AddTaskScreen(),
+            );
           },
           child: const Icon(Icons.add),
         ),
@@ -61,9 +61,9 @@ class _TasksState extends State<Tasks> {
                           fontWeight: FontWeight.w700,
                           color: Colors.white),
                     ),
-                    const Text(
-                      '12 Tasks',
-                      style: TextStyle(
+                    Text(
+                      '${Provider.of<TaskData>(context).taskCount} Tasks',
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
                       ),
@@ -84,7 +84,7 @@ class _TasksState extends State<Tasks> {
                       topRight: Radius.circular(25.0),
                     ),
                   ),
-                  child: TasksList(checkValue: checkValue),
+                  child: const TasksList(),
                 ),
               ),
             ],

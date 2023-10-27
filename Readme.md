@@ -30,23 +30,31 @@ Dive into the world of Flutter development by exploring the following modules:
 - Alert package used : [alert](https://pub.dev/packages/rflutter_alert)
 
 #### Section 7 : Boss Challenge 2
-- [Destini_StoryTeller](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/storyteller)
+- [Destini StoryTeller](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/storyteller)
 
 #### Section 8 : Building Flutter UI for Intermediates
-- [BMI_Calculator](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bmi_calculator)
+- [BMI Calculator](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bmi_calculator)
 - Font package used : [font_awesome](https://pub.dev/packages/font_awesome_flutter)
 
 #### Section 9 : Powering Your Flutter App With Live Web Data
-- [Clima_Weather_App](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/clima_weather_app)
+- [Clima Weather App](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/clima_weather_app)
 - Geolocator package used : [geolocator](https://pub.dev/packages/geolocator)
 - Weather API used : [openweathermap](https://openweathermap.org/current)
 - Dart http package for handling http requests : [http](https://pub.dev/packages/http)
 - Spinkit loading indicator used : [flutter_spinkit](https://pub.dev/packages/flutter_spinkit)
 
-#### Section 10 : Boss Challeng 3
-- [Bitcoin_Ticker](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bitcoin_ticker)
+#### Section 10 : Boss Challenge 3
+- [Bitcoin Ticker](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/bitcoin_ticker)
 - Dart http package for handling http requests : [http](https://pub.dev/packages/http)
 - API used to get coin prices : [restcoinapi](https://docs.coinapi.io/market-data/rest-api/exchange-rates/)
+
+#### Section 11 : Flash Chat App With Firebase Cloud Firestore
+- [Flash Chat](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/flash_chat)
+
+#### Section 12 : Flutter State Management
+- [ToDoey](https://github.com/Flyview16/Flutter-Learning-Projects/tree/main/Flutter%20Projects/todoey)
+- Provider package for handling states : [provider](https://pub.dev/packages/provider)
+- [Project_Mockup]()
 
 ## Getting Started
 
