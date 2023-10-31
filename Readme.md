@@ -1,4 +1,6 @@
-# My Flutter Learning Projects Repository 
+![Flutter Logo ](https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-flutter-96.png) ![Dart Logo](https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-dart-96.png)
+
+## My Flutter Learning Projects Repository 
 
 Welcome to my *Flutter projects repository!* Each project in this repository is structured to help you learn Flutter development by building minimal apps in modular form.
 
