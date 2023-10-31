@@ -1,4 +1,4 @@
-<p aligin ="center">
+<p align ="center">
 ![Flutter Logo ](https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-flutter-96.png) ![Dart Logo](https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-dart-96.png)
 </p>
 
