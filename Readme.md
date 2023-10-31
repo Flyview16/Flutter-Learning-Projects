@@ -5,6 +5,9 @@
 <img src="https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-dart-96.png" alt ="Dart Icon">
 </p>
 
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, red, yellow, green, blue, purple);">
+
+
 ## My Flutter Learning Projects Repository 
 
 Welcome to my *Flutter projects repository!* Each project in this repository is structured to help you learn Flutter development by building minimal apps in modular form.
