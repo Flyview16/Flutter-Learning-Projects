@@ -2,7 +2,7 @@
 <img src="https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-flutter-96.png" alt="Flutter Icon>
 </p>
 <p align ="center">
-<img src="https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-flutter-96.png" alt ="Dart Icon">
+<img src="https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-dart-96.png" alt ="Dart Icon">
 </p>
 
 ## My Flutter Learning Projects Repository 
