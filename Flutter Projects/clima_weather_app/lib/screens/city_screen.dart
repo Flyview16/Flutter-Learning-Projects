@@ -8,6 +8,8 @@ class CityScreen extends StatefulWidget {
 
 class _CityScreenState extends State<CityScreen> {
   String cityName = '';
+  TextEditingController textEditingController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,6 +39,7 @@ class _CityScreenState extends State<CityScreen> {
               Container(
                 padding: const EdgeInsets.all(20.0),
                 child: TextField(
+                    controller: textEditingController,
                     style: const TextStyle(
                       color: Colors.black,
                     ),
@@ -47,7 +50,11 @@ class _CityScreenState extends State<CityScreen> {
               ),
               TextButton(
                 onPressed: () {
-                  Navigator.pop(context, cityName);
+                  if (textEditingController.text.isNotEmpty) {
+                    Navigator.pop(context, cityName);
+                  } else {
+                    Navigator.pop(context);
+                  }
                 },
                 child: const Text(
                   'Get Weather',
