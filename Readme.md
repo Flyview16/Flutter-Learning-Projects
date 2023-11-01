@@ -1,12 +1,10 @@
 <p align ="center">
-<img src="C:\Herbert\Projects\Flutter Projects\icons" alt="Flutter Icon>
+<img src="https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-flutter-96.png" alt="Flutter Icon>
 </p>
 
 <p align = "center">
 <img src="https://github.com/Flyview16/Flutter-Learning-Projects/blob/main/Flutter%20Projects/icons/icons8-dart-96.png" alt ="Dart Icon">
 </p>
-
-<div style="background-color: linear-gradient(to right, red, yellow, green, blue, purple); height: 1px;"></div>
 
 
 ## My Flutter Learning Projects Repository 
